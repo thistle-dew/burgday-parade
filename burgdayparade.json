@@ -1,0 +1,67 @@
+{
+  "label1": {
+    "type": "hidden",
+    "group": "Twitch Settings",
+    "label": "ComfyJS Connection"
+  },
+  "username": {
+    "type": "text",
+    "group": "Twitch Settings",
+    "label": "Username",
+    "value": ""
+  },
+  "ouath": {
+    "type": "text",
+    "group": "Twitch Settings",
+    "label": "Ouath Code",
+    "value": ""
+  },
+  "redemptionName": {
+    "type": "text",
+    "group": "Twitch Settings",
+    "label": "Channel Redemption Name",
+    "value": "Burgday Parade"
+  },
+  "chatCommand": {
+    "type": "text",
+    "group": "Twitch Settings",
+    "label": "Chat Command Name",
+    "value": "burgday"
+  },
+  "privileges": {
+    "type": "dropdown",
+    "group": "Twitch Settings",
+    "label": "Who can participate:",
+    "value": "broadcaster",
+    "options": {
+      "everybody": "Everybody",
+      "subs": "Subs",
+      "vips": "VIPS & Subs",
+      "mods": "Mods",
+      "broadcaster":"Broadcaster"
+    }
+  },
+  "imageSource": {
+    "type": "text",
+    "group": "Parade Settings",
+    "label": "Image URL",
+    "value": "https://cdn.discordapp.com/emojis/884588523343204391.png"
+  },
+  "label2": {
+    "type": "hidden",
+    "group": "Parade Settings",
+    "label": "Speed"
+  },
+  "horizPeriod": {
+        "type": "number",
+    	"group": "Parade Settings",
+        "label": "Time to Cross Screen",
+        "value": 30
+    },
+  "vertPeriod": {
+        "type": "number",
+    	"group": "Parade Settings",
+        "label": "Step Time",
+        "value": 0.5
+    }
+}

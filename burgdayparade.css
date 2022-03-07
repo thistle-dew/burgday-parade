@@ -1,0 +1,36 @@
+#parade-container{
+  	width: 100%;
+  	height: 100%;
+}
+
+.burgdayWrapper {
+   position: absolute;
+   animation: slideRight {{horizPeriod}}s linear;
+   bottom: 0;
+}
+
+.burgday {
+  height: 240px;
+  position: relative;
+  animation: bounce {{vertPeriod}}s infinite  alternate ease-in;
+}
+
+@keyframes slideRight {
+  from {
+    left: -100px;
+  }
+  
+  to {
+    left: 1920px;
+  }
+}
+
+@keyframes bounce {
+  from {
+    top: 0;
+  }
+  
+  to {
+    top: 20px;
+  }
+}
